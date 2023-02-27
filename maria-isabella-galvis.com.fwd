@@ -1,0 +1,13 @@
+$ORIGIN maria-isabella-galvis.com.
+$TTL 3H
+
+@	IN SOA	 parcial.maria-isabella-galvis.com.  root@maria-isabella-galvis.com. (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+@	IN 	NS 	parcial.maria-isabella-galvis.com.
+
+parcial IN 	A	192.168.50.3
+www	IN	CNAME	parcial
